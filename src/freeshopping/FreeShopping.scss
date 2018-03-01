@@ -1,0 +1,364 @@
+.free-shopping-wrap {
+  color: #333;
+  .banner-contain {
+    font-size: 0;
+    .banner {
+      font-size: 0;
+      width    : 100%;
+    }
+  }
+  .active-introduce {
+    background: #fff;
+    width     : 95%;
+    margin    : 50px auto 25px;
+    font-size : 24px;
+    padding   : 50px 30px;
+    box-sizing: border-box;
+    position  : relative;
+    h4 {
+      font-size  : 36px;
+      font-weight: normal;
+      margin     : 0 0 10px;
+    }
+    .first {
+      span {
+        &:last-child {
+          color: #ff5556;
+        }
+      }
+    }
+    .second {
+      span {
+        &:last-child {
+          color      : #333;
+          font-weight: bold;
+        }
+      }
+    }
+    h6 {
+      margin     : 0;
+      font-size  : 24px;
+      color      : #999;
+      font-weight: normal;
+    }
+    img {
+      position: absolute;
+      right   : 10px;
+      bottom  : 50px;
+      width   : 168px;
+    }
+    div {
+      font-size       : 0;
+      background-color: #333;
+      height          : 4px;
+      width           : 40px;
+      margin          : 30px 0;
+    }
+  }
+  .am-flexbox-item {
+    margin-left     : 10px;
+    background-color: #fff;
+  }
+  .rule-formula {
+    font-size : 30px;
+    color     : #fff;
+    width     : 95%;
+    box-sizing: border-box;
+    margin    : 0 auto;
+    .top-contain {
+      background: #e1b976;
+      padding   : 40px 0 40px 25px;
+      .mid {
+        padding-top: 35px;
+      }
+      p {
+        margin: 0;
+        &:first-child {
+          padding-bottom: 15px;
+        }
+        &:last-child {
+          padding-top: 15px;
+        }
+        .num {
+          font-size: 60px;
+        }
+        .spect {
+          font-size: 38px;
+        }
+      }
+    }
+    .conner {
+      font-size : 0;
+      text-align: center;
+    }
+    .bottom {
+      font-size : 27px;
+      color     : #666;
+      text-align: center;
+      margin    : 0;
+      padding   : 16px 0 30px;
+      .num {
+        color: #ff393a;
+      }
+    }
+  }
+  .present {
+    width     : 95%;
+    margin    : 0 auto;
+    font-size : 0;
+    margin-top: 90px;
+    text-align: center;
+    img {
+      width: 95%;
+    }
+  }
+  .wish-value {
+    font-size : 28px;
+    color     : #333;
+    margin-top: 50px;
+    text-align: center;
+    span {
+      color: #ff393a;
+    }
+  }
+  .big-button {
+    margin   : 60px auto 75px;
+    width    : 95%;
+    font-size: 30px;
+    a {
+      display   : inline-block;
+      background: #e1b976;
+      text-align: center;
+      padding   : 30px 0;
+      width     : 48%;
+      color     : #fff;
+      &:first-child {
+        float       : left;
+        margin-right: 4%;
+      }
+      &:last-child {
+        float: right;
+      }
+    }
+  }
+  .tabs-record {
+    .am-tabs-bar .am-tabs-tab {
+      color        : #333;
+      border-bottom: 1px dashed #e0e0e0;
+      font-size    : 36px;
+      height       : 100px;
+      line-height  : 100px;
+    }
+    .am-tabs-ink-bar {
+      background-color: #e1b976;
+    }
+    .record-contain {
+      width     : 100%;
+      text-align: center;
+      .thead {
+        padding-top: 40px;
+      }
+      thead {
+        font-size: 0;
+      }
+      tr {
+        padding-top: 25px;
+        display    : block;
+        width      : 100%;
+      }
+      th {
+        display  : inline-block;
+        width    : 33%;
+        font-size: 32px;
+        color    : #666;
+      }
+      td {
+        display  : inline-block;
+        width    : 33%;
+        font-size: 26px;
+        color    : #999;
+      }
+      p {
+        width    : 100%;
+        font-size: 24px;
+        color    : #999;
+        span {
+          display: inline-block;
+          width  : 33%;
+          &:first-child {
+            text-align: right;
+          }
+          &:last-child {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+  .wish-bar {
+    margin    : 75px auto 50px;
+    font-size : 36px;
+    color     : #333;
+    text-align: center;
+  }
+  // .wish-contain {
+  //   width : 95%;
+  //   margin: 0 auto;
+  //   .input {
+  //     display    : inline-block;
+  //     background : #fff;
+  //     height     : 90px;
+  //     line-height: 90px;
+  //     color      : #999;
+  //     font-size  : 24px;
+  //     float      : left;
+  //     width      : 60%;
+  //   }
+  //   button {
+  //     display    : inline-block;
+  //     background : #e1b976;
+  //     height     : 90px;
+  //     line-height: 90px;
+  //     color      : #fff;
+  //     font-size  : 30px;
+  //     float      : right;
+  //     width      : 40%;
+  //     border     : 0;
+  //     padding    : 0;
+  //   }
+  // }
+  .ownership {
+    margin    : 100px auto;
+    font-size : 24px;
+    color     : #999;
+    text-align: center;
+  }
+}
+// 兑换记录
+.record-wrap {
+  width : 95%;
+  margin: 0 auto;
+  .am-tabs-bar .am-tabs-tab {
+    color        : #333;
+    border-bottom: 1px dashed #e0e0e0;
+    font-size    : 36px;
+    height       : 100px;
+    line-height  : 100px;
+  }
+  .am-tabs-ink-bar {
+    background-color: #e1b976;
+  }
+  .platform,
+  .user {
+    padding         : 40px;
+    background-color: #fff;
+    min-height      : 400px;
+    display         : table;
+    width           : 100%;
+    box-sizing      : border-box;
+    p {
+      font-size    : 0;
+      margin-bottom: 10px;
+      display      : table-row;
+      span {
+        width         : 30%;
+        text-align    : center;
+        font-size     : 26px;
+        color         : #999;
+        display       : table-cell;
+        vertical-align: middle;
+        padding       : 5px 0;
+        &:first-child{
+          width         : 30%;
+        }
+        &:last-child{
+          width         : 40%;
+        }
+      }
+      .login-btn {
+        border-bottom: 1px solid;
+        font-size    : 30px;
+      }
+    }
+    .title {
+      span {
+        font-size: 32px;
+        color    : #333;
+        padding  : 10px 0;
+      }
+    }
+    .page {
+      span {
+        padding: 30px 0 0;
+      }
+    }
+  }
+}
+.rule-btn {
+  position        : fixed;
+  top             : 50%;
+  background-color: #333;
+  font-size       : 30px;
+  color           : #fff;
+  right           : -30px;
+  padding         : 10px 60px 10px 30px;
+  border-radius   : 40px;
+}
+.rule-content {
+  position   : relative;
+  padding-top: 10px;
+  h4 {
+    font-size: 36px;
+    color    : #e1b976;
+    margin   : 0 0 20px;
+  }
+  img {
+    position: absolute;
+    right   : 0;
+    top     : 0;
+    width   : 50px;
+  }
+  p {
+    text-align   : left;
+    margin-top   : 10px;
+    margin-bottom: 0;
+  }
+  .red-color{
+    color: red;
+  }
+}
+.wish-modal {
+  p {
+    text-align: center;
+  }
+}
+// 许愿
+.witsh-wrap {
+  width    : 95%;
+  margin   : 0 auto;
+  font-size: 0;
+  position : relative;
+  input {
+    width        : 100%;
+    display      : inline-block;
+    border       : 0;
+    font-size    : 30px;
+    height       : 90px;
+    line-height  : 90px;
+    padding-right: 300px;
+    box-sizing   : border-box;
+    padding-left : 40px;
+  }
+  button {
+    top             : 0;
+    right           : 0;
+    position        : absolute;
+    width           : 270px;
+    border          : 0;
+    background-color: #e1b976;
+    font-size       : 30px;
+    height          : 90px;
+    line-height     : 90px;
+    color           : #fff;
+  }
+}

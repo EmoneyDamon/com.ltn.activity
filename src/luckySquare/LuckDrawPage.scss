@@ -1,0 +1,98 @@
+.cj-bg-banner{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("./images/cjbg-banner.png") no-repeat center center fixed;;
+  background-size: cover;
+  .shiwu{
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+  }
+}
+.zhuanpan-wrap{
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 58%;
+  background: url("./images/lend1.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.zhuanpan-light-wrap{
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 58%;
+  background: url("./images/lend.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+  // 转盘
+.zp {
+  max-width: 660px;
+  margin   : 0 auto;
+  padding: 7% 6% 10% 8%;
+  .item {
+    float              : left;
+    width              : 30%;
+    box-sizing         : border-box;
+    text-align         : center;
+    background-image   : url('./images/prizebg.png');
+    background-position: center;
+    background-repeat  : no-repeat;
+    background-size    : 100%;
+    margin             : 6px;
+    img {
+      width: 100%;
+    }
+    &.active {
+      background-image: url('./images/prizebg2.png');
+    }
+  }
+  .btn {
+    background-image: none;
+  }
+  .cj-changes {
+    font-size : 26px;
+    color     : #666;
+    text-align: center;
+    margin-top: 50px;
+    span {
+      display         : inline-block;
+      padding         : 10px 20px;
+      margin          : 0 10px;
+      background-color: #c13c3c;
+      color           : #fff;
+    }
+  }
+}
+
+//弹出层
+.new-modal{
+  background: url("./images/redbag.png") no-repeat;
+  background-size: 100% 100%;
+  .am-modal-content{
+    background-color: inherit;
+  }
+  .rule-content{
+    height: 500px;
+    .award{
+      position: absolute;
+      top: 54%;
+      width: 90%;
+      color: #fff4c6;
+      font-size: 56px;
+    }
+    .tips{
+      position: absolute;
+      bottom: 20px;
+      text-align: left;
+      color: #9c332a;
+    }
+    .go-result{
+      position: absolute;
+      width: 30%;
+      top: 15%;
+      left: 36%;
+    }
+  }
+}

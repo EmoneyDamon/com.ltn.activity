@@ -1,0 +1,86 @@
+.sure-exchange-page{
+  background: #f2f3f5;
+  .text-content{
+    padding: 160px 43px 0 20px;
+    text-align: left;
+    font-size: 30px;
+    color: #333;
+    p{
+      margin: 0;
+      padding-bottom: 20px;
+      span{
+        color: #ff393a;
+      }
+      &:first-child{
+        font-size: 36px;
+        padding-bottom: 60px;
+      }
+      &:last-child{
+        padding-top: 40px;
+        padding-bottom: 90px;
+        color: #999;
+        font-size: 28px;
+      }
+    }
+  }
+
+  .button{
+    width: 95%;
+    margin: 0 auto;
+    span{display: inline-block;
+      width: 48%;
+      height: 90px;
+      text-align: center;
+      line-height: 90px;
+      font-size: 36px;
+      color: #fff;
+      background: #999;
+      &:first-child{
+        float: left;
+      }
+      &:last-child{
+        float: right;
+      }
+    }
+    .active{
+      background: #e1b976;
+    }
+  }
+}
+
+.modal-content{
+  .investment{
+    text-align: center;
+    display: inline-block;
+    margin-top: 48px;
+    width: 45%;
+    height: 70px;
+    line-height: 70px;
+    background: #999;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 5%;
+  }
+  .changeAgain{
+    text-align: center;
+    display: inline-block;
+    margin-top: 48px;
+    width: 45%;
+    height: 70px;
+    line-height: 70px;
+    background: #e1b976;
+    color: #fff;
+    font-size: 30px;
+  }
+  .btn-wrap {
+    margin-top: 40px;
+    span {
+      display         : inline-block;
+      background-color: #e1b976;
+      width           : 100%;
+      color           : #fff;
+      height          : 70px;
+      line-height     : 70px;
+    }
+  }
+}

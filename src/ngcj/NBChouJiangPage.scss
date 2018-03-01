@@ -1,0 +1,164 @@
+.banner-wrap {
+  line-height: 0;
+  img {
+    width: 100%;
+  }
+}
+.title {
+  position        : relative;
+  height          : 4px;
+  background-color: #333;
+  width           : 330px;
+  margin          : 75px auto 40px;
+  span {
+    position        : absolute;
+    font-size       : 42px;
+    color           : #000;
+    padding         : 0 40px;
+    height          : 50px;
+    line-height     : 50px;
+    background-color: #fff;
+    top             : -25px;
+    left            : 50%;
+    margin-left     : -124px;
+    font-weight     : bold;
+  }
+}
+.sub-title {
+  font-size    : 26px;
+  color        : #666666;
+  text-align   : center;
+  margin-bottom: 50px;
+}
+// tab
+.tab-wrap {
+  button {
+    display         : inline-block;
+    font-size       : 28px;
+    color           : #2d2d2d;
+    width           : 33.333%;
+    box-sizing      : border-box;
+    background-color: #eee;
+    height          : 80px;
+    line-height     : 80px;
+    text-align      : center;
+    border          : 0;
+    border-right    : 2px solid #fff;
+    &:last-child {
+      border-right: 0;
+    }
+    &.active {
+      color           : #fff;
+      background-color: #bb342d;
+    }
+  }
+}
+// 个人抽奖记录
+.jilu-wrap {
+  max-width       : 630px;
+  width           : 100%;
+  box-sizing      : border-box;
+  margin          : 0 auto;
+  background-color: #eee;
+  padding         : 50px 0;
+  border-radius   : 8px;
+  min-height      : 300px;
+  span {
+    display   : inline-block;
+    text-align: center;
+    &:first-child {
+      width: 20%;
+    }
+    &:last-child {
+      width: 80%;
+    }
+  }
+  .head {
+    color    : #666666;
+    font-size: 32px;
+  }
+  .item {
+    font-size: 26px;
+    color    : #999;
+  }
+  .no-data,
+  .no-login {
+    text-align : center;
+    color      : #999;
+    font-size  : 32px;
+    height     : 100px;
+    line-height: 100px;
+    a {
+      text-decoration: underline;
+    }
+  }
+  .no-data {
+    a {
+      text-decoration: none;
+    }
+  }
+}
+// 底部logo
+.footer-wrap {
+  text-align: center;
+  margin    : 100px 0;
+}
+// 转盘
+.zp {
+  max-width: 660px;
+  margin   : 0 auto;
+  .item {
+    font-size          : 40px;
+    float              : left;
+    width              : 30%;
+    max-width          : 200px;
+    height             : 200px;
+    box-sizing         : border-box;
+    text-align         : center;
+    background-image   : url('./imgs/prizebg.png');
+    background-position: center;
+    background-repeat  : no-repeat;
+    background-size    : 100%;
+    margin             : 10px;
+    img {
+      width: 100%;
+    }
+    &.active {
+      background-image: url('./imgs/prizebg2.png');
+    }
+  }
+  .btn {
+    background-image: none;
+  }
+  .cj-changes {
+    font-size : 26px;
+    color     : #666;
+    text-align: center;
+    margin-top: 50px;
+    span {
+      display         : inline-block;
+      padding         : 10px 20px;
+      margin          : 0 10px;
+      background-color: #c13c3c;
+      color           : #fff;
+    }
+  }
+}
+// 活动规则
+.rule-btn {
+  position        : fixed;
+  right           : -40px;
+  top             : 80%;
+  background-color: #c13c3c;
+  padding         : 10px 80px 10px 40px;
+  font-size       : 30px;
+  color           : #fff;
+  border-radius   : 60px;
+}
+.rule-content {
+  p {
+    margin       : 0;
+    text-align   : left;
+    margin-bottom: 10px;
+  }
+}

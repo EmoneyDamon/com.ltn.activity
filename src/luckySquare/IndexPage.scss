@@ -1,0 +1,131 @@
+body{
+  height: 100%;
+}
+img{
+  width: 76%;
+}
+.am-carousel-wrap-dot > span{
+  margin-top: -50px;
+}
+.index-page-wrap{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("./images/bg.png") no-repeat center center fixed;;
+  background-size: cover;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  .text-contain{
+    font-size: 26px;
+    width: 87%;
+    margin: 56% auto 0;
+    p{
+      margin: 0.5em;
+    }
+  }
+  .btn-join{
+    width: 64%;
+    height: 100px;
+    line-height: 100px;
+    font-size: 34px;
+    border-radius: 10px;
+    background: #ff8b3d;
+    margin: 50px auto 0;
+  }
+  .rule-wrap{
+    font-size: 26px;
+    margin-top: 50px;
+    p{
+      margin: 5px;
+    }
+  }
+}
+
+//弹框样式
+.rule-content{
+  font-size: 26px;
+  color: #666;
+  text-align: center;
+  h4{
+    font-size: 36px;
+    color: #f60;
+    margin: inherit;
+  }
+  .note-text{
+    font-size: 22px;
+    color: #999;
+  }
+  .short-contain{
+    position: relative;
+    margin-bottom: 20px;
+    .icon{
+      position: absolute;
+      left: 20px;
+      top: 29px;
+      width: 6%;
+    }
+    input{
+      width: 65%;
+      padding-left: 70px;
+      border: 1px solid #d6d6d6;
+      height: 80px;
+      line-height: 80px;
+      box-sizing: border-box;
+    }
+    .picCode{
+      width: 30%;
+      height: 78px;
+      margin-left: 4%;
+      vertical-align: middle;
+      border: 1px solid #d6d6d6;
+    }
+    span{
+      display: inline-block;
+      width: 35%;
+      height: 80px;
+      line-height: 80px;
+      background: #f60;
+      color: #fff;
+    }
+  }
+  .long-contain{
+    position: relative;
+    margin-top: 20px;
+    height: 80px;
+    line-height: 80px;
+    border: 1px solid #d6d6d6;
+    img{
+      position: absolute;
+      left: 20px;
+      top: 22px;
+      width: 5%;
+    }
+    input{
+      width: 80%;
+      padding-left: 50px;
+      border-style: hidden;
+    }
+  }
+  .success-content{
+    margin-top: 20px;
+    img{
+      width: 6%;
+      vertical-align: middle;
+    }
+    span{
+      margin-left: 20px;
+    }
+  }
+  .btn-submit{
+    margin-top: 50px;
+    height: 70px;
+    line-height: 70px;
+    background: #f60;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+  }
+}
